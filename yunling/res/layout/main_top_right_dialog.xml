@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent" >
+   
+   <RelativeLayout
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"  
+       android:layout_marginTop="46dp">
+        
+    	<LinearLayout
+    	    android:id="@+id/main_dialog_layout"
+	      	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentRight="true"
+        	android:layout_alignParentTop="true"
+        	android:orientation="vertical"
+        	android:background="@drawable/title_function_bg" >
+
+
+    		<LinearLayout
+    		    android:id="@+id/scan_qr_code"
+    		    android:layout_width="match_parent"
+    		    android:layout_height="wrap_content" >
+
+    			<ImageView
+    			    android:id="@+id/imageview"
+    			    android:layout_width="wrap_content"
+    			    android:layout_height="wrap_content"
+    			    android:layout_gravity="center_vertical"
+    			    android:layout_marginLeft="8dp"
+    			    android:src="@drawable/mm_title_btn_qrcode_normal" />
+
+    			<TextView
+    			    android:layout_width="wrap_content"
+    			    android:layout_height="wrap_content"
+    			    android:padding="8dp"
+    			    android:text="@string/btn_action_qrcode"
+    			    android:textColor="#fff"
+    			    android:textSize="18sp" />    		    
+    		</LinearLayout>
+           
+       </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

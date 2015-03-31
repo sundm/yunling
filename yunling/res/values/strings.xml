@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Yiyun</string>
+    <string name="menu_settings">Settings</string>
+	<string name="title_name">IC Card Reader</string>
+	
+	<string name="lab_id">ID:</string>
+	<string name="lab_pmm">PMm:</string>
+	<string name="lab_serl">SEL:</string>
+	<string name="lab_ver">VER:</string>
+	<string name="lab_date">DAT:</string>
+	<string name="lab_op">USE:</string>
+	<string name="lab_log">Log:</string>
+	<string name="lab_balance">Balance:</string>
+	<string name="lab_cur_cny">CNY</string>
+	<string name="lab_cur_hkd">HKD</string>
+	<string name="lab_op_time">Time(s)</string>
+	<string name="lab_user_id">Card SN:</string>
+	<string name="lab_bktg_sn">Book ID:</string>
+	<string name="lab_bkcat">Category:</string>
+	<string name="lab_chname">Cardholder Name:</string>
+	<string name="lab_ID">Cardholder ID:</string>
+	<string name="lab_IDType">ID Type:</string>
+	<string name="name_PBOC20">PBOC2.0 IC</string>
+	
+	<string name="tip_nfc_notfound">no nfc hardware!</string>
+	<string name="tip_nfc_disabled">nfc disabled</string>
+	<string name="tip_nfc_enabled">nfc enabled</string>	
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/tit" >
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="25.0dip"
+        android:background="@drawable/back"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="2dip" />
+
+    <TextView
+        android:id="@+id/textview_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_back"
+        android:layout_alignBottom="@+id/button_back"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="实名认证"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+        <Button
+        android:id="@+id/qr_btn"
+        android:layout_width="25.0dip"
+        android:layout_alignBaseline="@+id/textview_title"
+        android:layout_alignBottom="@+id/textview_title"
+        android:background="@drawable/quickmark"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:showAsAction="always" 
+          android:onClick="btnmainright" />
+
+</RelativeLayout>
